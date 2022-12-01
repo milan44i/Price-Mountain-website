@@ -1,3 +1,3 @@
 # Price-Mountain-website
 
-Napravljen website na osnovu slike Dizajn.png
+Made a website based on design Dizajn.png
