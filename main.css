@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*sada padding ne utice na height*/
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.spoljna {
+    width: 1450px;
+    margin: 0px auto;
+}
+
+.red1 {
+    height: 70px;
+    padding: 15px 20px;
+    display: flex;
+    background-color: #f9f9f9;
+    border-bottom: 2px solid #999999;
+}
+
+.red1 a {
+    display: block;
+    padding: 5px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #999999;
+}
+
+.red1 div:nth-child(5) {
+    width: 500px;
+}
+
+.margin-left-auto {
+    margin-left: auto;
+}
+
+.red2 {
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    padding: 15px;
+    padding-left: 30px;
+}
+
+.korpa {
+    padding: 30px;
+    justify-items: right;
+    margin-left: 840px;
+}
+
+.red2>div {
+    padding: 10px;
+    margin: 10px;
+    display: block;
+    padding: 0;
+    margin: 0;
+    align-self: center;
+}
+
+.red2>div>div {
+    text-align: right;
+}
+
+.red2>div>div:last-child {
+    color: #87aade;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.red3 {
+    height: 60px;
+    border-bottom: 1px solid black;
+    display: flex;
+    background-color: #87aade;
+}
+
+nav>div {
+    flex-grow: 1;
+    border-right: 1px solid white;
+    font-size: 25px;
+    justify-self: center;
+    align-self: center;
+}
+
+nav>div:last-child {
+    border-right: none;
+}
+
+nav>div>a {
+    display: block;
+    padding: 10px 0px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    transition: 200ms;
+
+}
+
+nav>div>a:hover {
+    background-color: #5f789d;
+    color: white;
+    transition: 150ms;
+}
+
+.red4 {
+    height: 140px;
+    display: flex;
+    background-color: #ffd42a;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+
+.red4 div {
+    font-size: 20px;
+}
+
+.red4 img {
+    padding: 10px;
+}
+
+.pretraga {
+    display: flex;
+}
+
+.sidebar {
+    width: 340px;
+    padding: 0 40px;
+}
+
+.sadrzaj {
+    flex-grow: 1;
+}
+
+.sidebar h1 {
+    color: #999999;
+    border-bottom: 1px solid #999999;
+    text-align: center;
+    padding: 20px 0px 5px 0px;
+}
+
+.sidebar>h1{
+    font-size: 30px;
+}
+
+.sidebar>div {
+    margin: 5px 0px;
+}
+
+.naslov-checkbox {
+    font-size: 20px;
+    color: #ffd42a;
+    padding-top: 10px;
+}
+
+#checkbox {
+    padding: 5px 0px 5px 15px;
+    font-size: 20px;
+    color: #b3b3b3;
+}
+
+input[type=checkbox] {
+    height: 15px;
+    width: 15px;
+}
+
+input[type=checkbox]:hover {
+    box-shadow:0px 0px 10px #999999;
+}
+
+input[type=checkbox]:checked + label{
+    color: red;
+    text-shadow: 5px #999999;
+}
+
+.selektor {
+    margin-top: 10px;
+}
+
+.selektor>div{
+    display: flex;
+    padding-left: 5px;
+}
+
+.selektor>div>div,
+.selektor>div>select {
+    display: inline;
+}
+
+.selektor {
+	font-size: 24px;
+	color: #ffd42a;
+	padding: 15px 0px;
+	margin-left: 10px;
+}
+
+.obican-selektor {
+	width: 180px;
+	border: 1px solid #999999;
+	vertical-align: text-top;
+	margin-left: 20px;
+}
+
+#artikli {
+	display: flex;
+    width: 1110px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+.artikal {
+	display: block;
+	width: 32%;
+	border: 1px solid #ececec;
+	margin: 5px;
+	padding: 5px;
+	text-decoration: none;
+}
+
+.artikal img {
+	width: 100%;
+	height: auto;
+}
+
+.artikal .cena {
+	font-size: 24px;
+	color: #ffd42a;
+	margin: 3px 0px;
+}
+
+.artikal .naziv,
+.artikal .podnaslov {
+	font-size: 16px;
+	color: #b3b3b3;
+}
+
+
